@@ -1,0 +1,9 @@
+﻿body {
+    background-image: url("assets/img1.jpg");
+    background-size: cover;
+    background-position-y: -120px;
+}
+
+.white-text{
+    color: white;
+}
