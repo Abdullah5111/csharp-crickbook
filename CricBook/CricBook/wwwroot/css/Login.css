@@ -1,0 +1,96 @@
+﻿.login-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/img4.jpg");
+    background-size: cover;
+    background-position-y: -220px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-host {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.player {
+    background-color: rgb(214, 205, 164, 0.7);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px 0 0 0;
+}
+
+.host {
+    background-color: rgb(238, 242, 230, 0.7);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 50px 0 0;
+}
+
+.signup {
+    background-color: rgb(61, 131, 97, 0.7);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 50px 50px;
+}
+
+.login-as {
+    color: #1C6758;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.not-account-yet {
+    color: #EEF2E6;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.login-button {
+    background-color: #1C6758;
+    color: white;
+    font-size: 20px;
+}
+
+.login-button:hover {
+    background-color: #3D8361;
+    color: white;
+}
+
+.signup-button {
+    background-color: white;
+    color: #1C6758;
+}
+
+.signup-button:hover {
+    background-color: #EEF2E6;
+    color: #1C6758;
+}

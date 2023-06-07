@@ -11,32 +11,34 @@ namespace CricBook.Controllers
             return View();
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-
         public IActionResult Login()
         {
             return View();
         }
 
-        //private readonly ILogger<HomeController> _logger;
+        public IActionResult LoginPlayer()
+        {
+            return View();
+        }
 
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
+        public IActionResult LoginHost()
+        {
+            return View();
+        }
 
-        //public IActionResult Privacy()
-        //{
-        //    return View();
-        //}
+        public IActionResult Signup()
+        {
+            return View();
+        }
 
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        public IActionResult SignupPlayer()
+        {
+            return View();
+        }
+
+        public IActionResult SignupHost()
+        {
+            return View();
+        }
     }
 }

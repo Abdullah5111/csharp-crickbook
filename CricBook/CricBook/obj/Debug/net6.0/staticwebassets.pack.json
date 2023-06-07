@@ -5,16 +5,48 @@
       "PackagePath": "staticwebassets\\CricBook.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\Layout.css",
+      "PackagePath": "staticwebassets\\css\\Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\LoginPlayer.css",
+      "PackagePath": "staticwebassets\\css\\LoginPlayer.css"
+    },
+    {
       "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
-      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\assets\\alessandro-bogliari-oDs_AxeR5g4-unsplash.jpg",
-      "PackagePath": "staticwebassets\\css\\assets\\alessandro-bogliari-oDs_AxeR5g4-unsplash.jpg"
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\SignupHost.css",
+      "PackagePath": "staticwebassets\\css\\SignupHost.css"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\SignupPlayer.css",
+      "PackagePath": "staticwebassets\\css\\SignupPlayer.css"
     },
     {
       "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\assets\\img1.jpg",
       "PackagePath": "staticwebassets\\css\\assets\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\assets\\img2.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\assets\\img3.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\assets\\img4.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\img4.jpg"
     },
     {
       "Id": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\wwwroot\\css\\site.css",

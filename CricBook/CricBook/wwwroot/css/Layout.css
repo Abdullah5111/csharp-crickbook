@@ -1,0 +1,42 @@
+﻿.one-px-letter-spaceing {
+    letter-spacing: 1px;
+}
+
+.two-px-letter-spaceing {
+    letter-spacing: 2px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.custom-navbar {
+    background-color: #1C6758;
+}
+
+.nav-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.homepage-link {
+    color: #EEF2E6;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.homepage-link:hover {
+    color: #D6CDA4;
+}
+
+.custom-login-button {
+    background-color: #D6CDA4;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.custom-login-button:hover {
+    background-color: #3D8361;
+    color: white;
+}

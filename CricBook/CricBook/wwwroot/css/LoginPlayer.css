@@ -1,0 +1,71 @@
+﻿.login-player-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/img4.jpg");
+    background-size: cover;
+    background-position-y: -220px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    width: 340px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.login-button {
+    background-color: #1C6758;
+    color: white;
+    font-size: 20px;
+}
+
+.login-button:hover {
+    background-color: #3D8361;
+    color: white;
+}
+
+.signup-button {
+    background-color: white;
+    color: #1C6758;
+}
+
+    .signup-button:hover {
+        background-color: #D6CDA4;
+        color: #1C6758;
+    }
+
+.not-account-yet {
+    color: #EEF2E6;
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-div{
+    width: 340px;
+}
+
+.title-div{
+    width: 340px;
+    margin-bottom: 40px;
+}
+
+.title{
+   color: white;
+}

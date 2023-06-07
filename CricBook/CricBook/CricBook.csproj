@@ -11,7 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\assets\alessandro-bogliari-oDs_AxeR5g4-unsplash.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\SignupPlayer.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\css\assets\img1.jpg" />
   </ItemGroup>
 
