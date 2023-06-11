@@ -9,69 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CricBook
 build_property.RootNamespace = CricBook
-build_property.ProjectDir = C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\6th Semester\SDC\Project\CricBook\CricBook\
+build_property.ProjectDir = C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\Crickbook Project\csharp-crickbook\CricBook\CricBook\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\6th Semester\SDC\Project\CricBook\CricBook
+build_property.MSBuildProjectDirectory = C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\Crickbook Project\csharp-crickbook\CricBook\CricBook
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/Index.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/Fields.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWVsZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/Login.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/LoginHost.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/LoginHost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbkhvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/LoginPlayer.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/LoginPlayer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblBsYXllci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/Privacy.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/Register.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/RegisterField.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/RegisterField.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RlckZpZWxkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/Signup.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/SignupHost.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/SignupHost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXBIb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Home/SignupPlayer.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Home/SignupPlayer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXBQbGF5ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Shared/Error.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/_ViewImports.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/_ViewStart.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/6th Semester/SDC/Project/CricBook/CricBook/Views/Shared/_Layout.cshtml]
+[C:/Users/X1 Carbon/Dropbox/My PC (DESKTOP-58DM7T9)/Desktop/Crickbook Project/csharp-crickbook/CricBook/CricBook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-brvkntjd4f

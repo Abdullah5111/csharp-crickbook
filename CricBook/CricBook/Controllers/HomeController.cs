@@ -45,5 +45,10 @@ namespace CricBook.Controllers
         {
             return View();
         }
+
+        public IActionResult Fields()
+        {
+            return View();
+        }
     }
 }

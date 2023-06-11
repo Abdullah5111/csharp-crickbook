@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\CricBook.csproj": {}
+    "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\CricBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\CricBook.csproj": {
+    "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\CricBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\CricBook.csproj",
+        "projectUniqueName": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\CricBook.csproj",
         "projectName": "CricBook",
-        "projectPath": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\CricBook.csproj",
+        "projectPath": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\CricBook.csproj",
         "packagesPath": "C:\\Users\\X1 Carbon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\6th Semester\\SDC\\Project\\CricBook\\CricBook\\obj\\",
+        "outputPath": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\X1 Carbon\\AppData\\Roaming\\NuGet\\NuGet.Config",
