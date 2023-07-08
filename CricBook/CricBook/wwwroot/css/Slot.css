@@ -1,0 +1,39 @@
+﻿.slots-div {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 20px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
+
+.visit-button {
+    width: 200px;
+    background-color: #3D8361;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+}
+
+.visit-button:hover {
+    background-color: #1C6758;
+    cursor: pointer;
+}
+
+.heading-div {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one-px-letter-spaceing {
+    letter-spacing: 1px;
+}

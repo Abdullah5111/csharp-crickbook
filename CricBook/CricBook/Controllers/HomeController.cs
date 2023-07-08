@@ -1,5 +1,7 @@
 ﻿using CricBook.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 using System.Diagnostics;
 
 namespace CricBook.Controllers
@@ -8,39 +10,22 @@ namespace CricBook.Controllers
     {
         public IActionResult Index()
         {
-            return View();
-        }
+            CricbookContext cx = new CricbookContext();
+            List<Field> fields = cx.Fields.ToList();
+            string layout = null;
+            if (Request.Cookies["UserId"] != null)
+            {
+                layout = "_Layout2";
+            }
+            else
+            {
+                layout = "_Layout";
+            }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
+            ViewData["Layout"] = $"~/Views/Shared/{layout}.cshtml";
 
-        public IActionResult LoginPlayer()
-        {
-            return View();
+            return View(fields);
         }
-
-        public IActionResult LoginHost()
-        {
-            return View();
-        }
-
-        public IActionResult Signup()
-        {
-            return View();
-        }
-
-        public IActionResult SignupPlayer()
-        {
-            return View();
-        }
-
-        public IActionResult SignupHost()
-        {
-            return View();
-        }
-
         public IActionResult RegisterField()
         {
             return View();

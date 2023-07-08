@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VF+VoddtsFz5oD9yjkaqBzXIZl9G9oKtup55ri0vcbo=",
+  "Hash": "CkVdeiqLaJ+gy6uiO2g3aoT0b19CSPtdKsdh4Y34z2g=",
   "Source": "CricBook",
   "BasePath": "_content/CricBook",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\wwwroot\\css\\Slot.css",
+      "SourceId": "CricBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\wwwroot\\",
+      "BasePath": "_content/CricBook",
+      "RelativePath": "css/Slot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Slot.css"
     },
     {
       "Identity": "C:\\Users\\X1 Carbon\\Dropbox\\My PC (DESKTOP-58DM7T9)\\Desktop\\Crickbook Project\\csharp-crickbook\\CricBook\\CricBook\\wwwroot\\favicon.ico",

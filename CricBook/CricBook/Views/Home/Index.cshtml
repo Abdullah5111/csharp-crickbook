@@ -1,4 +1,10 @@
-﻿<link rel="stylesheet" href="/css/Index.css">
+﻿@model List<Field>
+
+@{
+    Layout = ViewData["Layout"].ToString();
+}
+
+<link rel="stylesheet" href="/css/Index.css">
 <section class = "hero-section">
     <div class = "overlay">
         <div>
@@ -20,12 +26,29 @@ Curabitur luctus odio eu urna tincidunt, eu malesuada mauris luctus. Nam malesua
     <div class = "fields-div">
       
         <div class="field">
-          <img class = "field-img" />
-          <div class = "specs">
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
+          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
+          <div class="specs">
+            <p class="spec"><strong>City:</strong> @Model[0].City</p>
+            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
+          </div>
+          <div class = "button-div">
+              <form action = "/Player/Visit" method = "post">
+                  <input type="hidden" name="Id" value="@Model[0].Id" />
+                  <button class = "nav-link visit-button one-px-letter-spaceing" type="submit">Visit</button>
+              </form>
+              @*<a class = "nav-link visit-button one-px-letter-spaceing" href="/Player/Visit">Visit</a>*@
+          </div>
+      </div>
+
+      <div class="field">
+          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
+          <div class="specs">
+            <p class="spec"><strong>City:</strong> @Model[0].City</p>
+            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
           </div>
           <div class = "button-div">
               <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
@@ -33,12 +56,12 @@ Curabitur luctus odio eu urna tincidunt, eu malesuada mauris luctus. Nam malesua
       </div>
 
       <div class="field">
-          <img class = "field-img" />
-          <div class = "specs">
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
+          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
+          <div class="specs">
+            <p class="spec"><strong>City:</strong> @Model[0].City</p>
+            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
           </div>
           <div class = "button-div">
               <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
@@ -46,12 +69,12 @@ Curabitur luctus odio eu urna tincidunt, eu malesuada mauris luctus. Nam malesua
       </div>
 
       <div class="field">
-          <img class = "field-img" />
-          <div class = "specs">
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
+          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
+          <div class="specs">
+            <p class="spec"><strong>City:</strong> @Model[0].City</p>
+            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
           </div>
           <div class = "button-div">
               <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
@@ -59,12 +82,12 @@ Curabitur luctus odio eu urna tincidunt, eu malesuada mauris luctus. Nam malesua
       </div>
 
       <div class="field">
-          <img class = "field-img" />
-          <div class = "specs">
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
+          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
+          <div class="specs">
+            <p class="spec"><strong>City:</strong> @Model[0].City</p>
+            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
           </div>
           <div class = "button-div">
               <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
@@ -72,25 +95,12 @@ Curabitur luctus odio eu urna tincidunt, eu malesuada mauris luctus. Nam malesua
       </div>
 
       <div class="field">
-          <img class = "field-img" />
-          <div class = "specs">
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-          </div>
-          <div class = "button-div">
-              <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
-          </div>
-      </div>
-
-      <div class="field">
-          <img class = "field-img" />
-          <div class = "specs">
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
-              <p class = "spec">Lorem ipsum</p>
+          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
+          <div class="specs">
+            <p class="spec"><strong>City:</strong> @Model[0].City</p>
+            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
           </div>
           <div class = "button-div">
               <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>

@@ -1,0 +1,33 @@
+﻿<section class="signup-player-section">
+    <div class="overlay d-flex flex-column align-items-center">
+        <div class="title-div">
+            <h2 class="title">Register your field</h2>
+        </div>
+        <div class="signup-div">
+            <form action="/Host/RegisterField" method = "post"  enctype="multipart/form-data">
+                <input type="text" class="form-control input-field" id="city" name="City" placeholder="Enter city" required>
+                <input type="text" class="form-control input-field" id="address" name="Address" placeholder="Enter address" required>
+                <input type="text" class="form-control input-field" id="openingTime" name="OpeningTime" placeholder="Enter opening time" required>
+                <input type="text" class="form-control input-field" id="closingTime" name="ClosingTime" placeholder="Enter closing time" required>
+                <label class = "file-label image-label" for="mainImage">
+                    Choose Main Image
+                    <input type="file" class="form-control input-field" id="mainImage" name="PrimaryImage" accept=".jpg, .png" required>
+                </label>
+                <br />
+                <label class = "file-label image-label" for="optionalImage1">
+                    Optional Image
+                    <input type="file" class="form-control input-field" id="optionalImage1" name="OptionalImage1" accept=".jpg, .png">
+                </label>
+                <br />
+                <label class = "file-label image-label" for="optionalImage2">
+                    Optional Image
+                    <input type="file" class="form-control input-field" id="optionalImage2" name="OptionalImage2" accept=".jpg, .png">
+                </label>
+                <br />
+                <button type="submit" class="btn signup-button">Confirm</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet" href="/css/SignupHost.css">

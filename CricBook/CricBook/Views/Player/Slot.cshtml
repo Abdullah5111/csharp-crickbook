@@ -1,0 +1,76 @@
+﻿@model bool[]
+
+@{
+    Layout = ViewData["Layout"].ToString();
+}
+
+<form action="/Player/Dashboard" method="post">
+    <div class="heading-div one-px-letter-spaceing">
+        <h2>Select slots to book</h2>
+    </div>
+
+    <div class="slots-div">
+
+        @for (int i = 0; i < Model.Length; i++)
+        {
+            bool currentValue = Model[i]; // Retrieve the current value from the model
+
+                <div class="button-div">
+                    <button class="visit-button one-px-letter-spaceing" type="button" id="button-@i" onclick="buttonClick(@i)" style="background-color: @(currentValue ? "#3D8361" : "gray")">
+                    @i : 00
+                        <input type="hidden" name="boolValues" value="false" />
+                    </button>
+                </div>
+        }
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    function buttonClick(index) {
+        var button = document.getElementById("button-" + index);
+        button.style.backgroundColor = button.style.backgroundColor === "green" ? "" : "green";
+
+        var hiddenInput = button.querySelector("input[name='boolValues']");
+        hiddenInput.value = button.style.backgroundColor === "green" ? "true" : "false";
+    }
+</script>
+
+<link rel="stylesheet" href="/css/Slot.css">
+
+@*@model bool[]
+
+@{
+    Layout = ViewData["Layout"].ToString();
+}
+
+<div class="heading-div one-px-letter-spaceing">
+    <h2>Select slots to book</h2>
+</div>
+
+<div class="slots-div">
+
+    @for (int i = 0; i < Model.Length; i++)
+    {
+            <div class="button-div">
+                <button class="visit-button one-px-letter-spaceing" type="button" id="button-@i" @if (Model[i])
+            {
+                <text>onclick="buttonClick(@i)"</text>
+            } style="background-color: @(Model[i] ? "#3D8361" : "gray")">
+                @i : 00
+                </button>
+            </div>
+    }
+
+</div>
+
+<script>
+    function buttonClick(index) {
+        var button = document.getElementById("button-" + index);
+        button.style.backgroundColor = button.style.backgroundColor === "green" ? "" : "green";
+    }
+</script>
+
+<link rel="stylesheet" href="/css/Slot.css">
+*@
