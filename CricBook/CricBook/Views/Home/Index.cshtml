@@ -1,4 +1,4 @@
-﻿@model List<Field>
+﻿@model List<FieldComponentViewModel>
 
 @{
     Layout = ViewData["Layout"].ToString();
@@ -24,92 +24,125 @@ Curabitur luctus odio eu urna tincidunt, eu malesuada mauris luctus. Nam malesua
 <section class = "fields-section">
     <h2 class = "about-heading explore-heading">Explore</h2>
     <div class = "fields-div">
-      
+
         <div class="field">
-          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
-          <div class="specs">
-            <p class="spec"><strong>City:</strong> @Model[0].City</p>
-            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
-            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
-            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
-          </div>
-          <div class = "button-div">
-              <form action = "/Player/Visit" method = "post">
-                  <input type="hidden" name="Id" value="@Model[0].Id" />
-                  <button class = "nav-link visit-button one-px-letter-spaceing" type="submit">Visit</button>
-              </form>
-              @*<a class = "nav-link visit-button one-px-letter-spaceing" href="/Player/Visit">Visit</a>*@
-          </div>
-      </div>
+                @{
+                    string base64Image = Convert.ToBase64String(@Model[0].PrimaryImage);
+                }
+            <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+            <div class="specs">
+                <p class="spec"><strong>City:</strong> @Model[0].City</p>
+                <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+                <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+                <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
+            </div>
+            <div class="button-div">
+                <form action="/Player/Visit" method="post">
+                    <input type="hidden" name="Id" value="@Model[0].Id" />
+                    <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                </form>
+            </div>
+        </div>
 
-      <div class="field">
-          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
-          <div class="specs">
-            <p class="spec"><strong>City:</strong> @Model[0].City</p>
-            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
-            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
-            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
-          </div>
-          <div class = "button-div">
-              <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
-          </div>
-      </div>
+        <div class="field">
+            @{
+                base64Image = Convert.ToBase64String(@Model[1].PrimaryImage);
+            }
+            <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+            <div class="specs">
+                <p class="spec"><strong>City:</strong> @Model[1].City</p>
+                <p class="spec"><strong>Address:</strong> @Model[1].Address</p>
+                <p class="spec"><strong>Opening Time:</strong> @Model[1].OpeningTime</p>
+                <p class="spec"><strong>Closing Time:</strong> @Model[1].ClosingTime</p>
+            </div>
+            <div class="button-div">
+                <form action="/Player/Visit" method="post">
+                    <input type="hidden" name="Id" value="@Model[1].Id" />
+                    <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                </form>
+            </div>
+        </div>
 
-      <div class="field">
-          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
-          <div class="specs">
-            <p class="spec"><strong>City:</strong> @Model[0].City</p>
-            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
-            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
-            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
-          </div>
-          <div class = "button-div">
-              <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
-          </div>
-      </div>
+        <div class="field">
+            @{
+                base64Image = Convert.ToBase64String(@Model[2].PrimaryImage);
+            }
+            <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+            <div class="specs">
+                <p class="spec"><strong>City:</strong> @Model[2].City</p>
+                <p class="spec"><strong>Address:</strong> @Model[2].Address</p>
+                <p class="spec"><strong>Opening Time:</strong> @Model[2].OpeningTime</p>
+                <p class="spec"><strong>Closing Time:</strong> @Model[2].ClosingTime</p>
+            </div>
+            <div class="button-div">
+                <form action="/Player/Visit" method="post">
+                    <input type="hidden" name="Id" value="@Model[2].Id" />
+                    <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                </form>
+            </div>
+        </div>
 
-      <div class="field">
-          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
-          <div class="specs">
-            <p class="spec"><strong>City:</strong> @Model[0].City</p>
-            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
-            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
-            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
-          </div>
-          <div class = "button-div">
-              <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
-          </div>
-      </div>
+        <div class="field">
+            @{
+                base64Image = Convert.ToBase64String(@Model[0].PrimaryImage);
+            }
+            <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+            <div class="specs">
+                <p class="spec"><strong>City:</strong> @Model[0].City</p>
+                <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
+                <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
+                <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
+            </div>
+            <div class="button-div">
+                <form action="/Player/Visit" method="post">
+                    <input type="hidden" name="Id" value="@Model[0].Id" />
+                    <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                </form>
+            </div>
+        </div>
 
-      <div class="field">
-          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
-          <div class="specs">
-            <p class="spec"><strong>City:</strong> @Model[0].City</p>
-            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
-            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
-            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
-          </div>
-          <div class = "button-div">
-              <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
-          </div>
-      </div>
+        <div class="field">
+            @{
+                base64Image = Convert.ToBase64String(@Model[1].PrimaryImage);
+            }
+            <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+            <div class="specs">
+                <p class="spec"><strong>City:</strong> @Model[1].City</p>
+                <p class="spec"><strong>Address:</strong> @Model[1].Address</p>
+                <p class="spec"><strong>Opening Time:</strong> @Model[1].OpeningTime</p>
+                <p class="spec"><strong>Closing Time:</strong> @Model[1].ClosingTime</p>
+            </div>
+            <div class="button-div">
+                <form action="/Player/Visit" method="post">
+                    <input type="hidden" name="Id" value="@Model[1].Id" />
+                    <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                </form>
+            </div>
+        </div>
 
-      <div class="field">
-          <img class = "field-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model[0].PrimaryImage)" />
-          <div class="specs">
-            <p class="spec"><strong>City:</strong> @Model[0].City</p>
-            <p class="spec"><strong>Address:</strong> @Model[0].Address</p>
-            <p class="spec"><strong>Opening Time:</strong> @Model[0].OpeningTime</p>
-            <p class="spec"><strong>Closing Time:</strong> @Model[0].ClosingTime</p>
-          </div>
-          <div class = "button-div">
-              <a class = "nav-link visit-button one-px-letter-spaceing">Visit</a>
-          </div>
-      </div>   
+        <div class="field">
+            @{
+                base64Image = Convert.ToBase64String(@Model[2].PrimaryImage);
+            }
+            <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+            <div class="specs">
+                <p class="spec"><strong>City:</strong> @Model[2].City</p>
+                <p class="spec"><strong>Address:</strong> @Model[2].Address</p>
+                <p class="spec"><strong>Opening Time:</strong> @Model[2].OpeningTime</p>
+                <p class="spec"><strong>Closing Time:</strong> @Model[2].ClosingTime</p>
+            </div>
+            <div class="button-div">
+                <form action="/Player/Visit" method="post">
+                    <input type="hidden" name="Id" value="@Model[2].Id" />
+                    <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                </form>
+            </div>
+        </div>
+
     </div>
 
     <div class = "fields-page-link-div">
-        <a href="https://localhost:7201/Home/Fields" class = "nav-link visit-button fields-page-link-button one-px-letter-spaceing">See more</a>
+        <a href="https://localhost:7201/Home/AllFields" class = "nav-link visit-button fields-page-link-button one-px-letter-spaceing">See more</a>
     </div>
 </section>
 

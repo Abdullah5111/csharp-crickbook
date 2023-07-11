@@ -1,0 +1,38 @@
+﻿@model List<FieldComponentViewModel>
+
+@{
+    Layout = ViewData["Layout"].ToString();
+}
+
+<section class="fields-section">
+    <h2 class="about-heading explore-heading">Available Fields</h2>
+    <div class="fields-div">
+        @foreach (var model in Model)
+        {
+            <div class="field">
+                @{
+                    string base64Image = Convert.ToBase64String(model.PrimaryImage);
+                }
+                <img class="field-img" src="data:image/jpeg;base64,@base64Image" />
+                <div class="specs">
+                    <p class="spec"><strong>City:</strong> model.City</p>
+                    <p class="spec"><strong>Address:</strong> model.Address</p>
+                    <p class="spec"><strong>Opening Time:</strong> model.OpeningTime</p>
+                    <p class="spec"><strong>Closing Time:</strong> model.ClosingTime</p>
+                </div>
+                <div class="button-div">
+                    <form action="/Player/Visit" method="post">
+                        <input type="hidden" name="Id" value="model.Id" />
+                        <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="footer-section">
+
+</section>
+
+<link rel="stylesheet" href="/css/Index.css">

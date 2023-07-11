@@ -17,7 +17,6 @@ namespace CricBook.Controllers
         [HttpPost]
         public IActionResult RegisterField(Field f, IFormFile primaryImage, IFormFile optionalImage1, IFormFile optionalImage2)
         {
-            Console.WriteLine("....");
             Console.WriteLine(f.PrimaryImage);
 
             using (var memoryStream = new MemoryStream())
@@ -26,7 +25,14 @@ namespace CricBook.Controllers
                 f.PrimaryImage = memoryStream.ToArray();
             }
 
+            Console.WriteLine("....");
+            string userId = Request.Cookies["UserId"];
 
+            Console.WriteLine("....");
+            Console.WriteLine(userId);
+            Console.WriteLine("....");
+
+            f.HostId = int.Parse(userId);
 
             if (optionalImage1 != null)
             {
@@ -45,7 +51,7 @@ namespace CricBook.Controllers
                     f.OptionalImage2 = memoryStream.ToArray();
                 }
             }
-            f.HostId = 1010;
+
             CricbookContext cx = new CricbookContext();
             cx.Fields.Add(f);
             cx.SaveChanges();

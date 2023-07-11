@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CricBook;
+namespace CricBook.Models;
 
 public partial class Field
 {

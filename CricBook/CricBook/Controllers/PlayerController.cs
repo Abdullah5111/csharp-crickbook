@@ -1,6 +1,7 @@
 ﻿using CricBook.Models;
 using CricBook.Models.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace CricBook.Controllers
 {
@@ -14,9 +15,12 @@ namespace CricBook.Controllers
             {
                 string layout = "_Layout2";
                 ViewData["Layout"] = $"~/Views/Shared/{layout}.cshtml";
+                string temp = Request.Form["Id"].ToString();
+                Console.WriteLine(temp);
+                id = int.Parse(temp);
+                Console.WriteLine($"Id in Visit: {id}");
 
-                id = int.Parse(Request.Form["id"]);
-                Field f = authentication.GetField(id);
+                Field f = FieldRepository.GetField(id);
 
                 return View(f);
             }
@@ -32,7 +36,7 @@ namespace CricBook.Controllers
                 string layout = "_Layout2";
                 ViewData["Layout"] = $"~/Views/Shared/{layout}.cshtml";
 
-                Field f = authentication.GetField(id);
+                Field f = FieldRepository.GetField(id);
 
                 return View(f);
             }
@@ -49,9 +53,7 @@ namespace CricBook.Controllers
                 string layout = "_Layout2";
                 ViewData["Layout"] = $"~/Views/Shared/{layout}.cshtml";
 
-                bool [] availableSlots = authentication.getSlots(DateTime.Parse(Request.Form["date"]));
-
-                availableSlots[2] = false;
+                bool [] availableSlots = PlayerRepository.getSlots(DateTime.Parse(Request.Form["date"]));
 
                 return View(availableSlots);
             }

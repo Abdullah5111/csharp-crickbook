@@ -62,14 +62,24 @@ namespace CricBook.Controllers
 
             CricbookContext cx = new CricbookContext();
             User user = cx.Users.FirstOrDefault(u => u.Email == email);
-            Console.WriteLine(user.Password);
-            Console.WriteLine(user.Password == password);
 
             if (user != null)
             {
                 if (user.Password == password)
                 {
-                    return RedirectToAction("Index", "Home");
+                    var cookieOptions = new CookieOptions
+                    {
+                        Expires = DateTime.UtcNow.AddDays(7),
+                        IsEssential = true,
+                        HttpOnly = true
+                    };
+
+                    Response.Cookies.Append("UserId", $"{user.Id}", cookieOptions);
+
+                    string userId = Request.Cookies["UserId"];
+
+                    var layout = "_Layout2";
+                    return RedirectToAction("Index", "Home", new { layout = layout });
                 }
             }
             return RedirectToAction("LoginHost", "Auth");

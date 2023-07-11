@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using CricBook.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CricBook;
+namespace CricBook.Models;
 
 public partial class CricbookContext : DbContext
 {
@@ -30,11 +29,10 @@ public partial class CricbookContext : DbContext
     {
         modelBuilder.Entity<Field>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Field__3214EC073F8FA9DA");
+            entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC078483376C");
 
             entity.ToTable("Field");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Address).HasColumnName("address");
             entity.Property(e => e.City)
                 .HasMaxLength(50)

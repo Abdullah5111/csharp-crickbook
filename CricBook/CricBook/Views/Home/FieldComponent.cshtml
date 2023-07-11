@@ -1,0 +1,17 @@
+﻿@model FieldComponentViewModel
+
+<div class="field">
+    <img class="field-img" src="@Model.PrimaryImage" />
+    <div class="specs">
+        <p class="spec"><strong>City:</strong> @Model.City</p>
+        <p class="spec"><strong>Address:</strong> @Model.Address</p>
+        <p class="spec"><strong>Opening Time:</strong> @Model.OpeningTime</p>
+        <p class="spec"><strong>Closing Time:</strong> @Model.ClosingTime</p>
+    </div>
+    <div class="button-div">
+        <form action="/Player/Visit" method="post">
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <button class="nav-link visit-button one-px-letter-spacing" type="submit">Visit</button>
+        </form>
+    </div>
+</div>

@@ -2,20 +2,8 @@
 
 namespace CricBook.Models.Repository
 {
-    static public class authentication
+    static public class PlayerRepository
     {
-        static public void addUser(User user)
-        {
-            CricbookContext cx = new CricbookContext();
-            cx.Add(user);
-        }
-
-        static public Field GetField(int id)
-        {
-            CricbookContext cx = new CricbookContext();
-            return cx.Fields.Find(id = id);
-        }
-
         static public bool[] getSlots(DateTime d)
         {
             CricbookContext cx = new CricbookContext();
